@@ -12,7 +12,7 @@ const handleClick = (e) => {
 
   if (handleMove(position)) {
     setTimeout(() => {
-      alert("O jogo acabou! O vendedor foi o jogador " + playerTime);
+      alert("O jogo acabou! O vencedor foi o jogador " + playerTime);
     }, 100);
   }
   updateSquares();
